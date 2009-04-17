@@ -1,0 +1,1 @@
+here are some sample gps data for the emulator... and shell scripts to run them

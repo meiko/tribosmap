@@ -1,0 +1,17 @@
+#!/usr/bin/env expect
+spawn telnet 127.0.0.1 5554
+#expect "OK"
+
+set load_fh [open "norge1.nmea" r]
+set gps_list [split [read $load_fh] "\n"]
+close $load_fh
+
+foreach gps $gps_list {
+    if {$gps != ""} {
+	if {[string match "*GPGGA*" $gps]} {
+	    sleep 1
+	}
+        expect "OK"
+	send "geo nmea $gps\n"
+    }
+}
