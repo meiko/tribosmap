@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TribOSMap"/>
+	<classpathentry kind="con" path="ch.epfl.lamp.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/***/jars/scalatest-0.9.3/scalatest-0.9.3-2.7.2.RC2.jar" sourcepath="/***/jars/scalatest-0.9.3/src"/>
+	<classpathentry kind="lib" path="/***/jars/jmock/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="/***/jars/jmock/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="/***/jars/jmock/jmock-2.5.1.jar"/>
+	<classpathentry kind="lib" path="/***/jars/jmock/jmock-legacy-2.5.1.jar"/>
+	<classpathentry kind="lib" path="/***/jars/specs/asm-1.5.3.jar"/>
+	<classpathentry kind="lib" path="/***/jars/specs/cglib-2.1_3.jar"/>
+	<classpathentry kind="lib" path="/***/jars/specs/objenesis-1.1.jar"/>
+	<classpathentry kind="lib" path="/***/jars/specs/specs-1.4.1.jar" sourcepath="/***/jars/specs/specs-1.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="/***/jars/scalacheck/ScalaCheck-1.5.jar" sourcepath="/***/jars/scalacheck/ScalaCheck-1.5-src.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TribOSMapConverter"/>
+	<classpathentry kind="lib" path="/***/jars/jmock/bsh-core-2.0b4.jar"/>
+	<classpathentry kind="lib" path="/***/android/android.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

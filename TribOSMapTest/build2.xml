@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TribOSMap" default="mytouch">
+	<target name="mytouch">
+		<echo>Touch...</echo>
+		<touch>
+			<fileset dir="./src">
+				<include name="**/*" />
+			</fileset>
+		</touch>
+	</target>
+</project>

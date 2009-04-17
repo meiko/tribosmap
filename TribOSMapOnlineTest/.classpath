@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="/***/workspace/TribOSMapOnlineTest/bin"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/***/jars/scala-android-library.jar" sourcepath="/***/jars/scalaAndroidSource"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TribOSMap"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MyDroid"/>
+	<classpathentry kind="lib" path="/***/jars/scalacheck/ScalaCheck-1.5.jar" sourcepath="/***/jars/scalacheck/ScalaCheck-1.5-src.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TribOSMapTest"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<project name="TribOSMapTest" default="main">
+
+	<property name="dependencyfinder.home" value="/home/meiko/tribosmap" />
+
+	<path id="dependencyfinder">
+		<pathelement location="${dependencyfinder.home}/jars/scalatest-0.9.3/scalatest-0.9.3-2.7.2.RC2.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/jmock/jmock-2.5.1.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/jmock/jmock-legacy-2.5.1.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/specs/specs-1.4.1.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/specs/cglib-2.1_3.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/specs/objenesis-1.1.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/specs/asm-1.5.3.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/jmock/hamcrest-core-1.1.jar" />
+		<pathelement location="${dependencyfinder.home}/jars/jmock/hamcrest-library-1.1.jar" />
+		<pathelement location="${dependencyfinder.home}/workspace/TribOSMapTest/bin" />
+		<pathelement location="${dependencyfinder.home}/workspace/TribOSMapConverter/bin" />
+		<pathelement location="${dependencyfinder.home}/workspace/TribOSMap/bin" />
+		<pathelement location="${dependencyfinder.home}/jars/scalacheck/ScalaCheck-1.5.jar" />
+		<pathelement location="${dependencyfinder.home}/eclipse/configuration/org.eclipse.osgi/bundles/209/1/.cp/lib/scala-library.jar" />
+	</path>
+
+	<target name="main">
+		<taskdef name="scalatest" classname="org.scalatest.tools.ScalaTestTask">
+			<classpath refid="dependencyfinder" />
+		</taskdef>
+		<scalatest>
+			<suite classname="org.tribosmap.model.test.offline.AllTests" /> 
+			<reporter type="stdout" />
+			<reporter type="graphic" />
+		</scalatest>
+	</target>
+</project>

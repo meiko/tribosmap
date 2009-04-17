@@ -1,0 +1,45 @@
+<map name="Hardangerviddawest.jpg">
+    <file>./hardangerviddaWest.tosm</file>
+    <datum>WGS 84</datum>
+    <coordsystem>WGS 84</coordsystem>
+    <projection>(UTM) Universal Transverse Mercator</projection>
+    <size y="14682" x="10816"></size>
+    <points>
+        <point y="601" x="10264">
+            <utm northing="6718000" zonenumber="32" easting="428000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="14181" x="10151">
+            <utm northing="6632000" zonenumber="32" easting="424000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="14248" x="426">
+            <utm northing="6634000" zonenumber="32" easting="362000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="3205" x="317">
+            <utm northing="6704000" zonenumber="32" easting="364000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="546" x="3669">
+            <utm northing="6720000" zonenumber="32" easting="386000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="4959" x="3839">
+            <utm northing="6692000" zonenumber="32" easting="386000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="12802" x="5075">
+            <utm northing="6642000" zonenumber="32" easting="392000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="8237" x="8668">
+            <utm northing="6670000" zonenumber="32" easting="416000" hemisphere="North">
+            </utm>
+        </point>
+        <point y="8512" x="1780">
+            <utm northing="6670000" zonenumber="32" easting="372000" hemisphere="North">
+            </utm>
+        </point>
+    </points>
+</map>

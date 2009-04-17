@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="7px"
+>
+
+	<ProgressBar
+		android:id="@+id/progress_bar"
+		android:layout_height="50px"
+		android:layout_width="fill_parent"
+		android:indeterminateOnly="false"
+		android:progressDrawable="@drawable/myprogress"
+		android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+		android:minHeight="20dip"
+		android:maxHeight="20dip" />
+
+
+	<TextView
+		android:id="@+id/status"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="aaa"
+		android:padding="3px" />
+	<ListView
+		android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:drawSelectorOnTop="false" />
+	<TextView
+		android:id="@+id/android:empty"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="No data" />
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="bottom"
+		android:paddingLeft="7px"
+	>
+		<TextView
+			android:id="@+id/testCounter"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="0" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text=" / " />
+		<TextView
+			android:id="@+id/totalCount"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="100" />
+
+		<TextView
+			android:id="@+id/errorCounter"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="0"
+			android:paddingLeft="7px" />
+		<TextView
+			android:id="@+id/failureCounter"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="0"
+			android:paddingLeft="7px" />
+
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="bottom"
+		android:paddingLeft="7px"
+		android:layout_marginTop="7px"
+	>
+	<Button
+		android:id="@+id/launch_button"
+		android:text="@string/launch_test"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="7px" />
+	<Button
+		android:id="@+id/stop_button"
+		android:text="@string/stop_test"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="7px" />
+		
+	</LinearLayout>
+</LinearLayout>
+

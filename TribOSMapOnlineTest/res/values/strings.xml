@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TribOsMapTest</string>
+    <string name="app_name">TribOsMapTest</string>
+    <string name="launch_test">Start Tests</string>
+    <string name="stop_test">Stop Tests</string>
+</resources>
+
