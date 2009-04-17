@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/edit_marker_image_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="5px"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:background="@drawable/box"
+		android:orientation="vertical">
+		<!-- view1 goes on top -->
+		<ImageView
+			android:id="@+id/image_view"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:scaleType="fitCenter"
+			android:src="@drawable/cancel"
+			android:gravity="center"
+			android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="bottom"
+		android:paddingTop="5px">
+		<ImageButton
+			android:id="@+id/delete_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/menu_delete" />
+	</LinearLayout>
+</LinearLayout>

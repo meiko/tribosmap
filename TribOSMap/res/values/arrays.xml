@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array
+		name="hemisphere">
+		<item>@string/north</item>
+		<item>@string/south</item>
+	</string-array>
+	<string-array
+		name="languages">
+		<item>@string/german</item>
+		<item>@string/english</item>
+	</string-array>
+</resources>

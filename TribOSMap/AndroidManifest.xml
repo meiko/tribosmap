@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.tribosmap" android:versionCode="1" android:versionName="1.0.0">
+
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<application android:icon="@drawable/icon_tribos" android:label="@string/app_name">
+	    
+		<activity android:name=".StartActivity" android:label="@string/app_name">
+			<intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".frontend.MainActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.VIEW" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".frontend.map.MapListActivity"
+			android:label="@string/app_map">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.VIEW" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".frontend.map.MapEditActivity"
+			android:label="@string/app_map">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.EDIT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".frontend.map.MapViewActivity"
+			android:label="@string/app_mapview">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.mapview.EDIT" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name=".frontend.trace.TraceListActivity"
+			android:label="@string/app_trace">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.VIEW" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".frontend.marker.MarkerListActivity"
+			android:label="@string/app_marker">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.VIEW" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".frontend.marker.MarkerEditActivity"
+			android:label="@string/app_marker">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.EDIT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".frontend.trace.TraceEditActivity"
+			android:label="@string/app_trace">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.EDIT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".frontend.marker.CameraActivity"
+			android:label="@string/app_trace">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.EDIT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".frontend.marker.MarkerImageActivity"
+			android:label="@string/app_trace">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.EDIT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".frontend.common.file.FileChooser"
+			android:label="@string/app_file">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+				<action android:name=".frontend.common.EDIT" />
+			</intent-filter>
+		</activity>
+		<service android:name=".model.app.TraceRecordService" />
+	</application>
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#0000">
+	<group
+		android:id="@+id/menu_group">
+		<item
+			android:id="@+id/edit_btn"
+			android:title="@string/edit"
+			android:icon="@drawable/menu_edit"
+			android:titleCondensed="@string/edit" />
+		<item
+			android:id="@+id/export_btn"
+			android:title="@string/export"
+			android:icon="@drawable/menu_export"
+			android:titleCondensed="@string/export" />
+		<item
+			android:id="@+id/delete_btn"
+			android:title="@string/delete"
+			android:icon="@drawable/menu_delete"
+			android:titleCondensed="@string/delete" />
+	</group>
+</menu>

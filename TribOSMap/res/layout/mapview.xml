@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#AAAAAAAA">
+	<org.tribosmap.frontend.map.MapView
+		android:id="@+id/view"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center_horizontal" />
+	<LinearLayout
+		android:id="@+id/postext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="5px"
+		android:layout_marginLeft="5px"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:background="#AFFF">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#F00"
+			android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:text="alt: "
+			android:gravity="right"
+			android:layout_marginLeft="3px" />
+		<TextView
+			android:id="@+id/lblAltitude"
+			android:layout_width="77px"
+			android:layout_height="wrap_content"
+			android:textColor="#F00"
+			android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:text="80000.0m" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#F00"
+			android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:text="lat: "
+			android:gravity="right" />
+		<TextView
+			android:id="@+id/lblLatitude"
+			android:layout_height="wrap_content"
+			android:layout_width="77px"
+			android:textColor="#F00"
+			android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:shadowColor="#000"
+			android:text="90.12345°" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="7px"
+			android:textColor="#F00"
+			android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:text="lon:"
+			android:gravity="right" />
+		<TextView
+			android:id="@+id/lblLongitude"
+			android:layout_height="wrap_content"
+			android:layout_width="77px"
+			android:textColor="#F00"
+			android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:text="90.12345°" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_below="@+id/postext"
+		android:layout_marginLeft="5px"
+		android:background="#AFFF">
+		<TextView
+			android:id="@+id/lblZoomTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#F00"
+			android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:text="zoom: "
+			android:gravity="right"
+			android:layout_marginLeft="3px" />
+		<TextView
+			android:id="@+id/lblZoom"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#F00"
+			android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+			android:text="16"
+			android:layout_marginRight="3px" />
+	</LinearLayout>
+	<TableLayout
+		android:id="@+id/widget37"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="#0000"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="5px">
+		<TableRow
+			android:id="@+id/widget38"
+			android:layout_width="37px"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<CheckBox
+				android:id="@+id/checkCenter"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:layout_marginLeft="5px">
+			</CheckBox>
+			<CheckBox
+				android:id="@+id/checkMarker"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginLeft="5px">
+			</CheckBox>
+		</TableRow>
+		<TableRow
+			android:id="@+id/widget39"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/lblCenterTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#F00"
+				android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+				android:text="Center" />
+			<TextView
+				android:id="@+id/lblMarkerTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#F00"
+				android:shadowColor="#000"
+				android:shadowRadius="0.5"
+				android:shadowDx="1.3"
+				android:shadowDy="1.3"
+				android:text="Marker"
+				android:layout_marginLeft="5px" />
+		</TableRow>
+	</TableLayout>
+</RelativeLayout>

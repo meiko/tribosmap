@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="5px">
+	<ListView
+		android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:drawSelectorOnTop="false" />
+	<TextView
+		android:id="@+id/android:empty"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="No data" />
+	<TextView
+		android:id="@+id/file_dir_text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="/root/test/test" />
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="bottom"
+		android:paddingTop="3px"
+		android:paddingBottom="3px">
+		<EditText
+			android:id="@+id/edit_file_name"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/name"
+			android:textSize="15px"
+			android:singleLine="true"
+			android:gravity="fill_vertical"
+			android:ems="10"
+			android:text="trace.gpx" />
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageButton
+				android:id="@+id/cancel_btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/cancel"
+				android:layout_toLeftOf="@+id/save_btn" />
+			<ImageButton
+				android:id="@+id/ok_btn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ok"
+				android:layout_alignParentRight="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

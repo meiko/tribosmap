@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable
+        name="ImageTextSwitchButton">
+        <attr
+            name="text_off"
+            format="integer" />
+        <attr
+            name="src_off"
+            format="integer" />
+    </declare-styleable>
+    <declare-styleable
+        name="ImageTextButton">
+        <attr
+            name="text"
+            format="integer" />
+        <attr
+            name="src"
+            format="integer" />
+        <attr
+            name="text_size"
+            format="float" />
+    </declare-styleable>
+    <declare-styleable
+        name="ViewWrapper">
+        <attr
+            name="wrapLayout"
+            format="integer" />
+    </declare-styleable>
+</resources>

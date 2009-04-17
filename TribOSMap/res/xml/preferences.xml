@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ListPreference
+		android:key="language"
+		android:title="tile language"
+		android:summary="actual language"
+		android:entries="@array/languages"
+		android:defaultValue="@string/english"
+		android:entryValues="@array/languages"
+		/>
+
+	<EditTextPreference
+		android:key="dataFolder"
+		android:title="rootfolder of data"
+		android:summary="the root folder for all data"
+		android:defaultValue="/sdcard/tribosmap/"
+		/>
+	<EditTextPreference
+		android:key="webCacheFolder"
+		android:title="cache for web-map"
+		android:summary="the cache directory for images of internet maps"
+		android:defaultValue="/sdcard/tribosmap/webcache/"
+		/>
+	<EditTextPreference
+		android:key="cameraCacheFolder"
+		android:title="cache for photos"
+		android:summary="the cache directory for taken photos"
+		android:defaultValue="/sdcard/tribosmap/cameracache/"
+		/>
+	<EditTextPreference
+		android:key="importFolder"
+		android:title="folder for imports"
+		android:summary="the directory for importing data"
+		android:defaultValue="/sdcard/"
+		/>
+	<EditTextPreference
+		android:key="exportFolder"
+		android:title="folder for exports"
+		android:summary="the directory for exporting data"
+		android:defaultValue="/sdcard/tribosmap/"
+		/>
+	<EditTextPreference
+		android:key="memoryCacheSize"
+		android:title="memory cach size"
+		android:summary="count of cached images in memory"
+		android:defaultValue="18"
+		
+		/>
+		
+</PreferenceScreen>

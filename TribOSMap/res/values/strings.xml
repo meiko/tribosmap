@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main</string>
+    <string name="app_name">TribOSMap</string>
+    <string name="app_map">TribOSMap - Map</string>
+    <string name="app_map_import">TribOSMap - Import Map</string>
+    <string name="app_trace">TribOSMap - Trace</string>
+    <string name="app_marker">TribOSMap - Marker</string>
+    <string name="app_mapview">TribOSMap - Map</string>
+    <string name="app_file">TribOSMap - File</string>
+    <string name="main_map">Maps</string>
+    <string name="main_trace">Traces</string>
+    <string name="main_marker">Markers</string>
+    <string name="main_quit">Quit</string>
+    <string name="main_map_import">Import Map</string>
+    <string name="main_record_trace">Record Trace</string>
+    <string name="main_stop_record_trace">Stop Record</string>
+    <string name="main_create_marker">Create Marker</string>
+    <string name="dialog_question">Question</string>
+    <string name="dialog_question_quit">Are you sure that you want to quit?</string>
+    <string name="dialog_question_delete">Are you sure that you want to delete: </string>
+    <string name="dialog_question_overwrite">Are you sure that you want to overwrite an existing file: </string>
+    <string name="dialog_question_import">Are you sure that you want to import: </string>
+    <string name="dialog_question_cancel_edit">Are you sure that you want to discard the changes ?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="map_view">View</string>
+    <string name="map_import">Import</string>
+    <string name="map_delete">Delete</string>
+    <string name="back_to_main">Back</string>
+    <string name="date_of_creation">created at: </string>
+    <string name="selected_map">selected: </string>
+    <string name="selected_map_cover_true">is covering actual position</string>
+    <string name="selected_map_cover_false">is not covering actual position</string>
+    <string name="no_files">This directory is empty</string>
+    <string name="trace_edit">Edit</string>
+    <string name="trace_export">Export</string>
+    <string name="trace_record">Record</string>
+    <string name="marker_create">Create</string>
+    <string name="marker_export">Export</string>
+    <string name="marker_edit">Edit</string>
+    <string name="discard_changes">Discard Changes</string>
+    
+    
+    <!-- new -->
+    <string name="edit">Edit</string>
+    <string name="export">Export</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="importf">Import</string>
+    
+    <!-- import map -->
+    <string name="file_size_prefix">size in kB : </string>
+    <string name="file_prefix">file: </string>
+    <string name="folder_prefix">folder: </string>
+    
+    <!-- edit position -->
+    <string name="name">name</string> 
+    <string name="information">information</string> 
+    <string name="northing_label">northing:</string> 
+    <string name="utm_north">utm north</string> 
+    <string name="easting_label">easting:</string>
+    <string name="utm_east">utm east</string> 
+    <string name="zone_label">zone:</string> 
+    <string name="utm_zone">utm zone</string> 
+    <string name="meters">meters</string> 
+    <string name="degree">degree</string>
+    <string name="degree_east">deg. east</string> 
+    <string name="degree_north">deg. north</string> 
+    <string name="deg_east">°E</string> 
+    <string name="deg_north">°N</string> 
+    <string name="latitude">latitude</string> 
+    <string name="longitude">longitude</string> 
+    <string name="latitude_label">latitude:</string> 
+    <string name="longitude_label">longitude:</string> 
+    <string name="altitude">altitude</string> 
+    <string name="altitude_label">altitude:</string>
+    <string name="position_short_label">pos: </string>
+    <string name="position_short_label_utm">pos Utm: </string>
+    <string name="utm">utm</string>
+    <string name="lat_lon">lat/lon</string>
+    <string name="cancel">cancel</string>
+    <string name="save">save</string>
+
+    <!-- edit map -->
+    <string name="left_up">leftup</string>
+    <string name="right_down">rightdown</string>
+    <string name="scale">scale</string>
+    <string name="meter_per_pixel">meter/pixel</string>
+    <string name="image_size">size(x,y)</string>
+    <string name="pixel">px</string>
+    <string name="map">map</string>
+    <string name="created">created</string>
+    
+    <string name="point_count_label">count of points: </string>
+    <string name="distance_label">distance: </string>
+    <string name="length_label">length: </string>
+    <string name="point_count">pointcount</string>
+    <string name="length">length</string>
+    
+    <string name="main_osmview">View OSM</string>
+    <string name="german">deutsch</string>
+    <string name="english">english</string>
+    
+    
+	<string name="north">North</string>
+	<string name="south">South</string>
+	
+	<string name="autocenter">Auto Center</string>
+	
+	<string name="trace_loading">loading traces...</string>
+	<string name="window_open">opening window...</string>
+	<string name="trace_exporting">trace exporting...</string>
+	<string name="trace_exported">trace exported</string>
+	<string name="cannot_open_file_write">Cannot open file for writing: </string>
+	<string name="trace_deleted">trace deleted.</string>
+	<string name="trace_saved">trace saved.</string>
+	<string name="trace_not_saved">trace NOT saved.</string>
+	
+	<string name="marker_loading">loading markers...</string>
+	<string name="marker_exporting">marker exporting...</string>
+	<string name="marker_deleted">marker deleted.</string>
+	<string name="marker_saved">marker saved.</string>
+	<string name="marker_not_saved">marker NOT saved.</string>
+	
+	<string name="need_bundle">need a bundle</string>
+	<string name="need_file_bundle">need a filename in bundle.</string>
+	<string name="need_marker_bundle">need a marker in bundle.</string>
+	<string name="need_trace_bundle">need a trace in bundle.</string>
+	<string name="position_is_needed">please fill in a position</string>
+	
+	<string name="photo_saved">Photo saved successfully.</string>
+	<string name="image_deleted">Image deleted.</string>
+	
+	<string name="map_loading">loading maps...</string>
+	<string name="map_exporting">map exporting...</string>
+	<string name="map_deleted">map deleted.</string>
+	<string name="map_saved">map saved.</string>
+	<string name="map_not_saved">map NOT saved.</string>
+</resources>
+
+
