@@ -16,4 +16,4 @@ http://public.beuth-hochschule.de/~meiko/tribosmap/Dokumentationen/TribOSMap-Tes
 http://public.beuth-hochschule.de/~meiko/tribosmap/Dokumentationen/TOSM-Converter-API/
 
 related Diploma Thesis
-http://www.openthesis.org/document/download/601722_0.pdf
+http://tribosmap.googlecode.com/files/MRachimowDiplA.pdf
