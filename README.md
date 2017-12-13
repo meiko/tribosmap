@@ -11,4 +11,4 @@ Scala application for Android: moving map / track recorder. (OpenStreetmap)
 - unit-testing application with GUI
 
 related Diploma Thesis
-http://tribosmap.googlecode.com/files/MRachimowDiplA.pdf
+https://github.com/meiko/tribosmap/raw/master/MRachimowDiplA.pdf
